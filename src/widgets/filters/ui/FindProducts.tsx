@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import SearchIcon from '@shared/ui/icons/Search.svg?react';
+import SearchIcon from '@shared/ui/icons/search.svg?react';
 import { useContext } from 'react';
 import { FiltersContext } from './FiltersProvider';
 

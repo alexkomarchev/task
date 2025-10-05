@@ -4,7 +4,7 @@ import { Outlet, useNavigate } from "react-router";
 import { LoginState, Skeleton } from '@shared/ui';
 import { useContext, useState } from "react";
 import { FiltersContext } from "@widgets/filters/ui/FiltersProvider";
-import SearchIcon from '@shared/ui/icons/Search.svg?react';
+import SearchIcon from '@shared/ui/icons/search.svg?react';
 
 const withFilters = (Component: React.FC) => {
     return () => (
