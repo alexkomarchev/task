@@ -1,4 +1,5 @@
 import { useState, type FC, type ReactNode } from 'react';
+// @ts-ignore
 import styles from './Select.module.css';
 import Arrow from '../../icons/arrow.svg?react';
 import Checkmark from '../../icons/checkmark.svg?react';

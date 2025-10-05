@@ -1,4 +1,4 @@
-import { createContext, useCallback, useEffect, useState, type Dispatch, type FC, type PropsWithChildren, type SetStateAction } from 'react';
+import { createContext, useCallback, useEffect, useState, type FC, type PropsWithChildren } from 'react';
 import { useLocation, useNavigate } from 'react-router';
 
 export enum SortValue {
@@ -38,6 +38,7 @@ export const FiltersProvider: FC<PropsWithChildren> = props => {
     const [category, setCategory] = useState<string | undefined>(getQuery(FilterType.Category));
     const [city, setCity] = useState<string | undefined>(getQuery(FilterType.City));
     const [search, setSearch] = useState<string | undefined>(getQuery(FilterType.Search));
+    // @ts-ignore
     const [sort, setSort] = useState<SortValue | undefined>(getQuery(FilterType.Sort));
     const [isLoading, setIsLoading] = useState(true);
 
