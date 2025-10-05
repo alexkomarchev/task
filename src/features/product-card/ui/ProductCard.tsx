@@ -1,6 +1,6 @@
 import { useEffect, type FC } from "react";
 import { useTranslation } from "react-i18next";
-import StarIcon from "@shared/ui/icons/Star.svg?react";
+import StarIcon from "@shared/ui/icons/star.svg?react";
 import { AddToFavorite } from "./AddToFavorite";
 import { ProductDrawer } from "./ProductDrawer";
 

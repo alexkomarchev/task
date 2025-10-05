@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import AppLogo from "@shared/ui/icons/app-logo.svg?react";
-import Whatsapp from "@shared/ui/icons/Whatsapp.svg?react";
-import Phone from "@shared/ui/icons/Call.svg?react";
+import Whatsapp from "@shared/ui/icons/whatsapp.svg?react";
+import Phone from "@shared/ui/icons/call.svg?react";
 import { useContext } from 'react';
 import { FiltersContext } from '@widgets/filters/ui/FiltersProvider';
 

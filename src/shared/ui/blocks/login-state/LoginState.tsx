@@ -1,4 +1,4 @@
-import UserIcon from '@shared/ui/icons/User.svg?react';
+import UserIcon from '@shared/ui/icons/user.svg?react';
 import { useTranslation } from 'react-i18next';
 
 export const LoginState = () => {

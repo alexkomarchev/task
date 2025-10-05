@@ -3,7 +3,7 @@ import { useContext, useMemo, useState, type FC } from "react"
 import data from '../data.json';
 import { FiltersContext, SortValue } from "@widgets/filters/ui/FiltersProvider";
 import { useFavorites } from "@features/product-card/model/useFavorites";
-import Folder from "@shared/ui/icons/Folder.svg?react";
+import Folder from "@shared/ui/icons/folder.svg?react";
 import { useTranslation } from "react-i18next";
 import { Skeleton } from "@shared/ui";
 

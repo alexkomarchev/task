@@ -1,6 +1,6 @@
 import type { FC } from "react"
 import type { ProductCardProps } from "./ProductCard"
-import StarIcon from "@shared/ui/icons/Star.svg?react";
+import StarIcon from "@shared/ui/icons/star.svg?react";
 import { useTranslation } from "react-i18next";
 import Heart from '@shared/ui/icons/heart.svg?react';
 import Xmark from '@shared/ui/icons/xmark.svg?react';
