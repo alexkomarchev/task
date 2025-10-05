@@ -1,0 +1,42 @@
+
+.arrow {
+    display: flex;
+    color: var(--state-accent)
+}
+
+.arrow[data-selected="true"] {
+    color: var(--bg-base)
+}
+
+.arrow[data-open="true"] {
+    transform: rotate(180deg);
+}
+
+.popover {
+    padding: 4px;
+    position: absolute;
+    top: 38px;
+    border: 1px solid var(--popover-border);
+    background-color: var(--card-body);
+    border-radius: 11px;
+    z-index: 1000;
+}
+
+.popover>div {
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 8px;
+    justify-content: left;
+    width: 164px;
+    height: 36px;
+    font-size: 14px;
+    color: var(--text-primary);
+    line-height: 18px;
+}
+
+.emptyCheckmark {
+    height: 12px;
+    width: 12px;
+}

@@ -1,0 +1,69 @@
+{
+  "FindProducts": {
+    "Placeholder": "Поиск"
+  },
+  "Login": {
+    "Login": "Войти"
+  },
+  "Tabs": {
+    "TabAll": "Все поставщики",
+    "TabFavorites": "Избранные"
+  },
+  "Filters": {
+    "CategorySelect": {
+      "Placeholder": "Категория",
+      "OptionAuto": "Автотовары",
+      "OptionAksessuary": "Аксессуары",
+      "OptionHome": "Дом и сад",
+      "Optionshoes": "Обувь",
+      "OptionСloth": "Одежда",
+      "OptionTechnique": "Техника",
+      "OptionTourism": "Туризм"
+    },
+    "CitySelect": {
+      "Placeholder": "Город",
+      "OptionMoscow": "Москва",
+      "OptionPiter": "Санкт-Петербург",
+      "OptionSaratov": "Саратов",
+      "OptionTver": "Тверь",
+      "OptionUfa": "Уфа"
+    },
+    "SortedSelect": {
+      "Placeholder": "Сортировка",
+      "OptionRating": "По рейтингу",
+      "OptionAlphabet": "По алфавиту"
+    }
+  },
+  "ProductCard": {
+    "More": "Подробнее",
+    "AddToFavorites": "Добавить в избранное",
+    "InFavorites": "В избранном",
+    "MiddlePoint": "{{v1}} · {{v2}}"
+  },
+  "EmptyStub": {
+    "Title": "Пока пусто",
+    "Hint": "Вы пока не добавили ничего в избранное",
+    "Btn": "Назад к поставщикам"
+  },
+   "Point": " · ",
+   "Footer": {
+    "ContactBlock": {
+      "Title": "Контакты",
+      "WhatsApp": "Whats App",
+      "WhatsAppNumber": "+7 945-918-2135",
+      "Call": "Позвоните нам",
+      "CallNumber": "+7 945-918-2132"
+    },
+    "Categoryies": "Категории",
+    "Usefull":  {
+      "Title": "Полезно",
+      "AboutCompany": "О компании",
+      "Documents": "Документы",
+      "Questions": "Частые вопросы"
+    }
+  },
+  "NotFound": {
+    "Title": "Страница не найдена",
+    "Subtitle": "Попробуйте зайти на другую страницу"
+  }
+}

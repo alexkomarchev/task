@@ -1,0 +1,12 @@
+.footer {
+    background-color: #111111;
+    padding-top: 76px;
+    height: 542px;
+    margin-top: 80px;
+}
+
+.footerContent {
+    width: 1200px;
+    margin: 0 auto;
+    color: var(--app-logo-color)
+}

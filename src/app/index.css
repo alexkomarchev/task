@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+
+}
+
+:root {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --text-primary: #0000001F;
+  --text-secondary: #666666;
+  --text-tertiary: #999999;
+  --text-inverted: #333333;
+  --bg-base: #FFFFFF;
+  --bg-primary: #F3F3F3;
+  --card-border: #EDEDED;
+  --card-body: #FFFFFF;
+  --stroke-field-default: #DDDDDD;
+  --state-accent: #0084FF;
+  --state-accent-hover: #007AEC;
+  --state-control: #F3F9FB;
+  --state-control-hover: #E8F4F8;
+  --product-card-image-bg: #F5F5F5;
+  --app-logo-color: #0A0D12;
+  --popover-border: #0000000F;
+  --skeleton-bg: #F3F3F3;
+}
+
+[data-theme="dark"] {
+  --text-primary: #FFFFFF;
+  --text-secondary: #999999;
+  --text-tertiary: #999999;
+  --text-inverted: #FFFFFF;
+  --bg-base: #151515;
+  --bg-primary: #F3F3F3;
+  --card-border: #333333;
+  --card-body: #222222;
+  --stroke-field-default: #333333;
+  --state-accent: #0084FF;
+  --state-accent-hover: #007AEC;
+  --state-control: #282C2D;
+  --state-control-hover: #3D4344;
+  --product-card-image-bg: #3D3D3D;
+  --app-logo-color: #FFFFFF;
+  --popover-border: #0000000F;
+  --skeleton-bg: #222222
+}
+
+body {
+  background-color: var(--bg-base);
+  padding: 0;
+  margin: 0;
+}
